@@ -4,7 +4,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.core.ExchangeTypes;
 import org.springframework.amqp.core.Message;
-import org.springframework.amqp.rabbit.annotation.Argument;
 import org.springframework.amqp.rabbit.annotation.Exchange;
 import org.springframework.amqp.rabbit.annotation.QueueBinding;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
@@ -21,10 +20,17 @@ public class SampleListener {
 
     @RabbitListener(bindings = @QueueBinding(
             value = @org.springframework.amqp.rabbit.annotation.Queue (value = "sample.queues", durable = "false", exclusive = "false", autoDelete = "true"),
-            exchange = @Exchange(value = "sample.exchange", ignoreDeclarationExceptions = "true", durable = "false", type = ExchangeTypes.TOPIC)
+            exchange = @Exchange(value = "sample.exchange", ignoreDeclarationExceptions = "true", durable = "false", type = ExchangeTypes.FANOUT)
     )
     )
-    public void receiveMessage2(final Message message) {
+    public void receiveMessage(final Message message) {
         log.info(message.toString());
+
+
+
+
+
     }
+
+
 }
