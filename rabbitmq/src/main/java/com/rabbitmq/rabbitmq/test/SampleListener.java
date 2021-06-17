@@ -19,15 +19,12 @@ public class SampleListener {
 //    }
 
     @RabbitListener(bindings = @QueueBinding(
-            value = @org.springframework.amqp.rabbit.annotation.Queue (value = "sample.queues", durable = "false", exclusive = "false", autoDelete = "true"),
+            value = @org.springframework.amqp.rabbit.annotation.Queue(value = "sample.queues", durable = "false", exclusive = "false", autoDelete = "true"),
             exchange = @Exchange(value = "sample.exchange", ignoreDeclarationExceptions = "true", durable = "false", type = ExchangeTypes.FANOUT)
     )
     )
     public void receiveMessage(final Message message) {
         log.info(message.toString());
-
-
-
 
 
     }
