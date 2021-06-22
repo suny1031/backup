@@ -14,7 +14,7 @@ public class BatchService {
     @PostConstruct
     public void init() {
         try {
-            quartzService.addCronJob(QuartzJob.class, "QuartzJob", "Quartz 5",null , "0/5 * * * * ?");
+            quartzService.addCronJob(QuartzJob.class, "QuartzJob", "Quartz 5", null, "0/5 * * * * ?");
         } catch (SchedulerException e) {
             e.printStackTrace();
         }

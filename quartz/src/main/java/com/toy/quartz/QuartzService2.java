@@ -11,7 +11,7 @@ public class QuartzService2 {
 
     private SchedulerFactory schedulerFactory;
 
-    private  Scheduler scheduler;
+    private Scheduler scheduler;
 
     @PostConstruct
     public void start() throws SchedulerException {
@@ -23,7 +23,6 @@ public class QuartzService2 {
 
         //jobDetail 생성( Job 지정하고 실행하기 위한 상세 정보 )
         JobDetail job = JobBuilder.newJob(UserJob.class).withIdentity("testJob").build();
-
 
 
         //trigger 생성

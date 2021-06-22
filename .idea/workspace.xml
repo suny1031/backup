@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e3d48d6-0357-4bc6-835b-35ef1f3fb3a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/backup.iml" beforeDir="false" />
+    <list default="true" id="cdb93dca-2ad1-4cdb-b2ec-33b9071c49be" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/com/rabbitmq/consumer/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/rabbitmq/consumer/ConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/src/test/java/com/rabbitmq/consumer/ConsumerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/test/java/com/rabbitmq/consumer/ConsumerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/rabbitmq/test/SampleConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/rabbitmq/test/SampleConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/rabbitmq/test/SampleListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/src/main/java/com/rabbitmq/rabbitmq/test/SampleListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz/src/main/java/com/toy/quartz/BatchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/src/main/java/com/toy/quartz/BatchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz/src/main/java/com/toy/quartz/QuartzService.java" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/src/main/java/com/toy/quartz/QuartzService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quartz/src/main/java/com/toy/quartz/QuartzService2.java" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/src/main/java/com/toy/quartz/QuartzService2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler/src/main/java/com/toy/scheduler/SchedulerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler/src/main/java/com/toy/scheduler/SchedulerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler/src/main/java/com/toy/scheduler/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler/src/main/java/com/toy/scheduler/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler/src/main/java/com/toy/scheduler/test/TestEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler/src/main/java/com/toy/scheduler/test/TestEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheduler/src/main/java/com/toy/scheduler/test/TestVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/scheduler/src/main/java/com/toy/scheduler/test/TestVo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1u4Mcj2FA1rAKJHTZS8d4eFxl26" />
+  <component name="ProjectId" id="1uHlw5hSr5E4fbwQ2JlZK7dQTpn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,17 +41,6 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Spring Boot.ConsumerApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rabbitmq.consumer.ConsumerApplication" />
@@ -67,12 +59,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5e3d48d6-0357-4bc6-835b-35ef1f3fb3a2" name="Default Changelist" comment="" />
-      <created>1623920488379</created>
+      <changelist id="cdb93dca-2ad1-4cdb-b2ec-33b9071c49be" name="Default Changelist" comment="" />
+      <created>1624330632116</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1623920488379</updated>
-      <workItem from="1623920490547" duration="31000" />
+      <updated>1624330632116</updated>
+      <workItem from="1624330635128" duration="16000" />
     </task>
     <servers />
   </component>

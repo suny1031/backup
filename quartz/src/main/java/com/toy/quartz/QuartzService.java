@@ -41,7 +41,7 @@ public class QuartzService {
 
     private JobDetail buildJobDetail(Class job, String name, String desc, Map params) {
         JobDataMap jobDataMap = new JobDataMap();
-        if(params != null) jobDataMap.putAll(params);
+        if (params != null) jobDataMap.putAll(params);
         return JobBuilder
                 .newJob(job)
                 .withIdentity(name)
