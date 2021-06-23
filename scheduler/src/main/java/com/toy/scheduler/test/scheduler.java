@@ -6,7 +6,6 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 @Component
-@EnableSchedulerLock(defaultLockAtMostFor = "0s")
 public class scheduler {
     @Scheduled(cron = "0/10 * * * * *")
     @SchedulerLock(name="SchedulerLock")
