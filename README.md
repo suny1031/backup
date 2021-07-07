@@ -24,6 +24,10 @@ PostMan에서는
     {
       "id" : 1,
       "nam" : "test1"
+    },
+    {
+      "id" : 1,
+      "nam" : "test1"
     }  
   ]
 
