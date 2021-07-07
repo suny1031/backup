@@ -1,8 +1,8 @@
 
 ## RestTemplate
 
-> @RequestBody로 List를 보내려고 하면 class를 생성해 한번 더 감싼다음에 보낸다
-ex) @RequestBody List<user> users를 보낼려하면
+> 삽질 1 : @RequestBody로 List를 보내려고 하면 class를 생성해 한번 더 감싼다음에 보낸다
+> ex) @RequestBody List<user> users를 보낼려하면
 
 
   class UserResponse{
