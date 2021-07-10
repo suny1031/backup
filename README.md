@@ -21,6 +21,9 @@ PostMan에서는
 
 ```
 {
+
+  "id" : 1,
+  "name" : "sy",
   "users" : 
   [
     {
