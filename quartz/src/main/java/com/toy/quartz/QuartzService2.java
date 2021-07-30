@@ -5,6 +5,7 @@ import org.quartz.impl.StdSchedulerFactory;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
+import java.util.Date;
 
 @Component
 public class QuartzService2 {
@@ -32,5 +33,10 @@ public class QuartzService2 {
         scheduler.scheduleJob(job, trigger);
 
     }
+
+    public Trigger createTrigger(Date date){
+        return TriggerBuilder.newTrigger().startAt(date).build();
+    }
+
 
 }
